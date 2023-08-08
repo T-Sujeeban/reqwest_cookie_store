@@ -19,7 +19,7 @@ rustdoc-args = ["--cfg", "docsrs"]
 [dependencies]
 bytes = "1.0.1"
 cookie_store = "^0.20"
-reqwest = { version = "^0.11", default-features = false, features = ["cookies"] }
+reqwest = { git = "https://github.com/T-Sujeeban/reqwest.git", rev = "1f6c2cfcf9315a9721314171568a41beebf5b311", default-features = false, features = ["cookies"] }
 url = "2.2.2"
 
 [dev-dependencies]
